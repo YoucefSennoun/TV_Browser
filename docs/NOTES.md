@@ -109,8 +109,12 @@ exist too; Phase 4 is mainly re-branding, defaults and translations.
   installed official TV Bro.
 - Upstream `release.yml` is kept untouched; it requires signing secrets we do
   not have yet (Phase 5).
-- First green run must be confirmed on GitHub Actions. Local Gradle builds are
-  intentionally not attempted.
+- First green run confirmed: GitHub Actions run `43291101979` on `main`
+  (2026-11-12), artifact `tvbrowser-debug-webview`, ~10.2 MB APK
+  (`app-generic-geckoExcluded-debug.apk`). Local Gradle builds are intentionally
+  not attempted.
+- Repo: <https://github.com/YoucefSennoun/TV_Browser> (fork of `truefedex/tv-bro`,
+  default branch `main`). Upstream `master` history is preserved in the fork.
 
 ## Small assumptions (roadmap rule 7)
 

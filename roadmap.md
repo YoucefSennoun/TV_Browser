@@ -31,7 +31,7 @@ Build an Android app: a simple, fast web browser fully usable with a TV remote (
 ### Phase 0 — Setup
 - [x] Fork and clone `tv-bro`; read the license and structure; write `docs/NOTES.md` (modules, build flavors, WebView vs GeckoView, minSdk/targetSdk). _Imported upstream master `ddffb8c` locally; GitHub fork/remote still needs credentials (see NOTES)._
 - [x] Add `.github/workflows/build.yml`: JDK 17, Android SDK, `./gradlew assembleDebug`, upload APK artifact. _Uses JDK 21 and `assembleGenericGeckoExcludedDebug` because that is what the upstream build stack pins (see NOTES)._
-- [ ] Fix any build errors until the workflow is green.
+- [x] Fix any build errors until the workflow is green. _Green on first run: GitHub Actions run 43291101979, artifact `tvbrowser-debug-webview` (10.2 MB)._
 - **Done when:** a downloadable APK is produced from `main`.
 
 ### Phase 1 — Baseline on the device
